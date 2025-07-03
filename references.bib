@@ -32,6 +32,25 @@
   file = {/home/kellen/Downloads/pdfs/storage/Z3QU86C2/Agarwal et al. - Reinforcement Learning Theory and Algorithms.pdf}
 }
 
+@misc{albergoStochasticInterpolantsUnifying2023,
+  title = {Stochastic {{Interpolants}}: {{A Unifying Framework}} for {{Flows}} and {{Diffusions}}},
+  shorttitle = {Stochastic {{Interpolants}}},
+  author = {Albergo, Michael S. and Boffi, Nicholas M. and {Vanden-Eijnden}, Eric},
+  year = {2023},
+  month = nov,
+  number = {arXiv:2303.08797},
+  eprint = {2303.08797},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2303.08797},
+  urldate = {2025-07-01},
+  abstract = {A class of generative models that unifies flow-based and diffusion-based methods is introduced. These models extend the framework proposed in [2], enabling the use of a broad class of continuoustime stochastic processes called `stochastic interpolants' to bridge any two arbitrary probability density functions exactly in finite time. These interpolants are built by combining data from the two prescribed densities with an additional latent variable that shapes the bridge in a flexible way. The time-dependent probability density function of the stochastic interpolant is shown to satisfy a first-order transport equation as well as a family of forward and backward Fokker-Planck equations with tunable diffusion coefficient. Upon consideration of the time evolution of an individual sample, this viewpoint immediately leads to both deterministic and stochastic generative models based on probability flow equations or stochastic differential equations with an adjustable level of noise. The drift coefficients entering these models are time-dependent velocity fields characterized as the unique minimizers of simple quadratic objective functions, one of which is a new objective for the score of the interpolant density. We show that minimization of these quadratic objectives leads to control of the likelihood for generative models built upon stochastic dynamics, while likelihood control for deterministic dynamics is more stringent. We also construct estimators for the likelihood and the cross-entropy of interpolant-based generative models, and we discuss connections with other methods such as score-based diffusion models, stochastic localization processes, probabilistic denoising techniques, and rectifying flows. In addition, we demonstrate that stochastic interpolants recover the Schro{\textasciidieresis}dinger bridge between the two target densities when explicitly optimizing over the interpolant. Finally, algorithmic aspects are discussed and the approach is illustrated on numerical examples.},
+  archiveprefix = {arXiv},
+  langid = {english},
+  keywords = {Computer Science - Machine Learning,Condensed Matter - Disordered Systems and Neural Networks,Mathematics - Probability},
+  file = {/home/kellen/Downloads/pdfs/storage/2KCKGFYP/Albergo et al. - 2023 - Stochastic Interpolants A Unifying Framework for .pdf}
+}
+
 @book{altmanConstrainedMarkovDecision2021,
   title = {Constrained {{Markov Decision Processes}}: {{Stochastic Modeling}}},
   shorttitle = {Constrained {{Markov Decision Processes}}},
@@ -186,6 +205,24 @@
   author = {Borkar, Vivek S},
   langid = {english},
   file = {/home/kellen/Downloads/pdfs/storage/E8YY7W7Z/Borkar - STOCHASTIC APPROXIMATION  A DYNAMICAL SYSTEMS VIEWPOINT.pdf}
+}
+
+@misc{borsaUniversalSuccessorFeatures2018,
+  title = {Universal {{Successor Features Approximators}}},
+  author = {Borsa, Diana and Barreto, Andr{\'e} and Quan, John and Mankowitz, Daniel and Munos, R{\'e}mi and van Hasselt, Hado and Silver, David and Schaul, Tom},
+  year = {2018},
+  month = dec,
+  number = {arXiv:1812.07626},
+  eprint = {1812.07626},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.1812.07626},
+  urldate = {2025-06-30},
+  abstract = {The ability of a reinforcement learning (RL) agent to learn about many reward functions at the same time has many potential benefits, such as the decomposition of complex tasks into simpler ones, the exchange of information between tasks, and the reuse of skills. We focus on one aspect in particular, namely the ability to generalise to unseen tasks. Parametric generalisation relies on the interpolation power of a function approximator that is given the task description as input; one of its most common form are universal value function approximators (UVFAs). Another way to generalise to new tasks is to exploit structure in the RL problem itself. Generalised policy improvement (GPI) combines solutions of previous tasks into a policy for the unseen task; this relies on instantaneous policy evaluation of old policies under the new reward function, which is made possible through successor features (SFs). Our proposed universal successor features approximators (USFAs) combine the advantages of all of these, namely the scalability of UVFAs, the instant inference of SFs, and the strong generalisation of GPI. We discuss the challenges involved in training a USFA, its generalisation properties and demonstrate its practical benefits and transfer abilities on a large-scale domain in which the agent has to navigate in a first-person perspective three-dimensional environment.},
+  archiveprefix = {arXiv},
+  langid = {english},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Machine Learning,Statistics - Machine Learning},
+  file = {/home/kellen/Downloads/pdfs/storage/XEY8N7SW/Borsa et al. - 2018 - Universal Successor Features Approximators.pdf}
 }
 
 @misc{caoOfflineGoalConditionedReinforcement2024,
@@ -443,6 +480,43 @@
   file = {/home/kellen/Downloads/pdfs/storage/ICQPUZXS/Dedieu et al. - 2025 - Improving Transformer World Models for Data-Efficient RL.pdf}
 }
 
+@misc{deepseek-aiDeepSeekR1IncentivizingReasoning2025,
+  title = {{{DeepSeek-R1}}: {{Incentivizing Reasoning Capability}} in {{LLMs}} via {{Reinforcement Learning}}},
+  shorttitle = {{{DeepSeek-R1}}},
+  author = {{DeepSeek-AI} and Guo, Daya and Yang, Dejian and Zhang, Haowei and Song, Junxiao and Zhang, Ruoyu and Xu, Runxin and Zhu, Qihao and Ma, Shirong and Wang, Peiyi and Bi, Xiao and Zhang, Xiaokang and Yu, Xingkai and Wu, Yu and Wu, Z. F. and Gou, Zhibin and Shao, Zhihong and Li, Zhuoshu and Gao, Ziyi and Liu, Aixin and Xue, Bing and Wang, Bingxuan and Wu, Bochao and Feng, Bei and Lu, Chengda and Zhao, Chenggang and Deng, Chengqi and Zhang, Chenyu and Ruan, Chong and Dai, Damai and Chen, Deli and Ji, Dongjie and Li, Erhang and Lin, Fangyun and Dai, Fucong and Luo, Fuli and Hao, Guangbo and Chen, Guanting and Li, Guowei and Zhang, H. and Bao, Han and Xu, Hanwei and Wang, Haocheng and Ding, Honghui and Xin, Huajian and Gao, Huazuo and Qu, Hui and Li, Hui and Guo, Jianzhong and Li, Jiashi and Wang, Jiawei and Chen, Jingchang and Yuan, Jingyang and Qiu, Junjie and Li, Junlong and Cai, J. L. and Ni, Jiaqi and Liang, Jian and Chen, Jin and Dong, Kai and Hu, Kai and Gao, Kaige and Guan, Kang and Huang, Kexin and Yu, Kuai and Wang, Lean and Zhang, Lecong and Zhao, Liang and Wang, Litong and Zhang, Liyue and Xu, Lei and Xia, Leyi and Zhang, Mingchuan and Zhang, Minghua and Tang, Minghui and Li, Meng and Wang, Miaojun and Li, Mingming and Tian, Ning and Huang, Panpan and Zhang, Peng and Wang, Qiancheng and Chen, Qinyu and Du, Qiushi and Ge, Ruiqi and Zhang, Ruisong and Pan, Ruizhe and Wang, Runji and Chen, R. J. and Jin, R. L. and Chen, Ruyi and Lu, Shanghao and Zhou, Shangyan and Chen, Shanhuang and Ye, Shengfeng and Wang, Shiyu and Yu, Shuiping and Zhou, Shunfeng and Pan, Shuting and Li, S. S. and Zhou, Shuang and Wu, Shaoqing and Ye, Shengfeng and Yun, Tao and Pei, Tian and Sun, Tianyu and Wang, T. and Zeng, Wangding and Zhao, Wanjia and Liu, Wen and Liang, Wenfeng and Gao, Wenjun and Yu, Wenqin and Zhang, Wentao and Xiao, W. L. and An, Wei and Liu, Xiaodong and Wang, Xiaohan and Chen, Xiaokang and Nie, Xiaotao and Cheng, Xin and Liu, Xin and Xie, Xin and Liu, Xingchao and Yang, Xinyu and Li, Xinyuan and Su, Xuecheng and Lin, Xuheng and Li, X. Q. and Jin, Xiangyue and Shen, Xiaojin and Chen, Xiaosha and Sun, Xiaowen and Wang, Xiaoxiang and Song, Xinnan and Zhou, Xinyi and Wang, Xianzu and Shan, Xinxia and Li, Y. K. and Wang, Y. Q. and Wei, Y. X. and Zhang, Yang and Xu, Yanhong and Li, Yao and Zhao, Yao and Sun, Yaofeng and Wang, Yaohui and Yu, Yi and Zhang, Yichao and Shi, Yifan and Xiong, Yiliang and He, Ying and Piao, Yishi and Wang, Yisong and Tan, Yixuan and Ma, Yiyang and Liu, Yiyuan and Guo, Yongqiang and Ou, Yuan and Wang, Yuduan and Gong, Yue and Zou, Yuheng and He, Yujia and Xiong, Yunfan and Luo, Yuxiang and You, Yuxiang and Liu, Yuxuan and Zhou, Yuyang and Zhu, Y. X. and Xu, Yanhong and Huang, Yanping and Li, Yaohui and Zheng, Yi and Zhu, Yuchen and Ma, Yunxian and Tang, Ying and Zha, Yukun and Yan, Yuting and Ren, Z. Z. and Ren, Zehui and Sha, Zhangli and Fu, Zhe and Xu, Zhean and Xie, Zhenda and Zhang, Zhengyan and Hao, Zhewen and Ma, Zhicheng and Yan, Zhigang and Wu, Zhiyu and Gu, Zihui and Zhu, Zijia and Liu, Zijun and Li, Zilin and Xie, Ziwei and Song, Ziyang and Pan, Zizheng and Huang, Zhen and Xu, Zhipeng and Zhang, Zhongyu and Zhang, Zhen},
+  year = {2025},
+  month = jan,
+  number = {arXiv:2501.12948},
+  eprint = {2501.12948},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2501.12948},
+  urldate = {2025-06-27},
+  abstract = {We introduce our first-generation reasoning models, DeepSeek-R1-Zero and DeepSeek-R1. DeepSeek-R1-Zero, a model trained via large-scale reinforcement learning (RL) without supervised fine-tuning (SFT) as a preliminary step, demonstrates remarkable reasoning capabilities. Through RL, DeepSeek-R1-Zero naturally emerges with numerous powerful and intriguing reasoning behaviors. However, it encounters challenges such as poor readability, and language mixing. To address these issues and further enhance reasoning performance, we introduce DeepSeek-R1, which incorporates multi-stage training and cold-start data before RL. DeepSeekR1 achieves performance comparable to OpenAI-o1-1217 on reasoning tasks. To support the research community, we open-source DeepSeek-R1-Zero, DeepSeek-R1, and six dense models (1.5B, 7B, 8B, 14B, 32B, 70B) distilled from DeepSeek-R1 based on Qwen and Llama.},
+  archiveprefix = {arXiv},
+  langid = {english},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Machine Learning},
+  file = {/home/kellen/Downloads/pdfs/storage/WM8KGXDY/DeepSeek-AI et al. - 2025 - DeepSeek-R1 Incentivizing Reasoning Capability in.pdf}
+}
+
+@misc{deepseek-aiDeepSeekV3TechnicalReport2025,
+  title = {{{DeepSeek-V3 Technical Report}}},
+  author = {{DeepSeek-AI} and Liu, Aixin and Feng, Bei and Xue, Bing and Wang, Bingxuan and Wu, Bochao and Lu, Chengda and Zhao, Chenggang and Deng, Chengqi and Zhang, Chenyu and Ruan, Chong and Dai, Damai and Guo, Daya and Yang, Dejian and Chen, Deli and Ji, Dongjie and Li, Erhang and Lin, Fangyun and Dai, Fucong and Luo, Fuli and Hao, Guangbo and Chen, Guanting and Li, Guowei and Zhang, H. and Bao, Han and Xu, Hanwei and Wang, Haocheng and Zhang, Haowei and Ding, Honghui and Xin, Huajian and Gao, Huazuo and Li, Hui and Qu, Hui and Cai, J. L. and Liang, Jian and Guo, Jianzhong and Ni, Jiaqi and Li, Jiashi and Wang, Jiawei and Chen, Jin and Chen, Jingchang and Yuan, Jingyang and Qiu, Junjie and Li, Junlong and Song, Junxiao and Dong, Kai and Hu, Kai and Gao, Kaige and Guan, Kang and Huang, Kexin and Yu, Kuai and Wang, Lean and Zhang, Lecong and Xu, Lei and Xia, Leyi and Zhao, Liang and Wang, Litong and Zhang, Liyue and Li, Meng and Wang, Miaojun and Zhang, Mingchuan and Zhang, Minghua and Tang, Minghui and Li, Mingming and Tian, Ning and Huang, Panpan and Wang, Peiyi and Zhang, Peng and Wang, Qiancheng and Zhu, Qihao and Chen, Qinyu and Du, Qiushi and Chen, R. J. and Jin, R. L. and Ge, Ruiqi and Zhang, Ruisong and Pan, Ruizhe and Wang, Runji and Xu, Runxin and Zhang, Ruoyu and Chen, Ruyi and Li, S. S. and Lu, Shanghao and Zhou, Shangyan and Chen, Shanhuang and Wu, Shaoqing and Ye, Shengfeng and Ye, Shengfeng and Ma, Shirong and Wang, Shiyu and Zhou, Shuang and Yu, Shuiping and Zhou, Shunfeng and Pan, Shuting and Wang, T. and Yun, Tao and Pei, Tian and Sun, Tianyu and Xiao, W. L. and Zeng, Wangding and Zhao, Wanjia and An, Wei and Liu, Wen and Liang, Wenfeng and Gao, Wenjun and Yu, Wenqin and Zhang, Wentao and Li, X. Q. and Jin, Xiangyue and Wang, Xianzu and Bi, Xiao and Liu, Xiaodong and Wang, Xiaohan and Shen, Xiaojin and Chen, Xiaokang and Zhang, Xiaokang and Chen, Xiaosha and Nie, Xiaotao and Sun, Xiaowen and Wang, Xiaoxiang and Cheng, Xin and Liu, Xin and Xie, Xin and Liu, Xingchao and Yu, Xingkai and Song, Xinnan and Shan, Xinxia and Zhou, Xinyi and Yang, Xinyu and Li, Xinyuan and Su, Xuecheng and Lin, Xuheng and Li, Y. K. and Wang, Y. Q. and Wei, Y. X. and Zhu, Y. X. and Zhang, Yang and Xu, Yanhong and Xu, Yanhong and Huang, Yanping and Li, Yao and Zhao, Yao and Sun, Yaofeng and Li, Yaohui and Wang, Yaohui and Yu, Yi and Zheng, Yi and Zhang, Yichao and Shi, Yifan and Xiong, Yiliang and He, Ying and Tang, Ying and Piao, Yishi and Wang, Yisong and Tan, Yixuan and Ma, Yiyang and Liu, Yiyuan and Guo, Yongqiang and Wu, Yu and Ou, Yuan and Zhu, Yuchen and Wang, Yuduan and Gong, Yue and Zou, Yuheng and He, Yujia and Zha, Yukun and Xiong, Yunfan and Ma, Yunxian and Yan, Yuting and Luo, Yuxiang and You, Yuxiang and Liu, Yuxuan and Zhou, Yuyang and Wu, Z. F. and Ren, Z. Z. and Ren, Zehui and Sha, Zhangli and Fu, Zhe and Xu, Zhean and Huang, Zhen and Zhang, Zhen and Xie, Zhenda and Zhang, Zhengyan and Hao, Zhewen and Gou, Zhibin and Ma, Zhicheng and Yan, Zhigang and Shao, Zhihong and Xu, Zhipeng and Wu, Zhiyu and Zhang, Zhongyu and Li, Zhuoshu and Gu, Zihui and Zhu, Zijia and Liu, Zijun and Li, Zilin and Xie, Ziwei and Song, Ziyang and Gao, Ziyi and Pan, Zizheng},
+  year = {2025},
+  month = feb,
+  number = {arXiv:2412.19437},
+  eprint = {2412.19437},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2412.19437},
+  urldate = {2025-06-27},
+  abstract = {We present DeepSeek-V3, a strong Mixture-of-Experts (MoE) language model with 671B total parameters with 37B activated for each token. To achieve efficient inference and cost-effective training, DeepSeek-V3 adopts Multi-head Latent Attention (MLA) and DeepSeekMoE architectures, which were thoroughly validated in DeepSeek-V2. Furthermore, DeepSeek-V3 pioneers an auxiliary-loss-free strategy for load balancing and sets a multi-token prediction training objective for stronger performance. We pre-train DeepSeek-V3 on 14.8 trillion diverse and high-quality tokens, followed by Supervised Fine-Tuning and Reinforcement Learning stages to fully harness its capabilities. Comprehensive evaluations reveal that DeepSeek-V3 outperforms other open-source models and achieves performance comparable to leading closed-source models. Despite its excellent performance, DeepSeek-V3 requires only 2.788M H800 GPU hours for its full training. In addition, its training process is remarkably stable. Throughout the entire training process, we did not experience any irrecoverable loss spikes or perform any rollbacks. The model checkpoints are available at https://github.com/deepseek-ai/DeepSeek-V3.},
+  archiveprefix = {arXiv},
+  langid = {english},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Computation and Language},
+  file = {/home/kellen/Downloads/pdfs/storage/6FVL6N8T/DeepSeek-AI et al. - 2025 - DeepSeek-V3 Technical Report.pdf}
+}
+
 @misc{degrisStepsizeOptimizationContinual2024,
   title = {Step-Size {{Optimization}} for {{Continual Learning}}},
   author = {Degris, Thomas and Javed, Khurram and Sharifnassab, Arsalan and Liu, Yuxin and Sutton, Richard},
@@ -519,6 +593,24 @@
   file = {/home/kellen/Downloads/pdfs/storage/MVRAWH8Q/Durrett - 2016 - Essentials of Stochastic Processes.pdf}
 }
 
+@misc{echchahedSurveyStateRepresentation2025,
+  title = {A {{Survey}} of {{State Representation Learning}} for {{Deep Reinforcement Learning}}},
+  author = {Echchahed, Ayoub and Castro, Pablo Samuel},
+  year = {2025},
+  month = jun,
+  number = {arXiv:2506.17518},
+  eprint = {2506.17518},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2506.17518},
+  urldate = {2025-06-27},
+  abstract = {Representation learning methods are an important tool for addressing the challenges posed by complex observations spaces in sequential decision making problems. Recently, many methods have used a wide variety of types of approaches for learning meaningful state representations in reinforcement learning, allowing better sample efficiency, generalization, and performance. This survey aims to provide a broad categorization of these methods within a model-free online setting, exploring how they tackle the learning of state representations differently. We categorize the methods into six main classes, detailing their mechanisms, benefits, and limitations. Through this taxonomy, our aim is to enhance the understanding of this field and provide a guide for new researchers. We also discuss techniques for assessing the quality of representations, and detail relevant future directions.},
+  archiveprefix = {arXiv},
+  langid = {english},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Machine Learning,Statistics - Machine Learning},
+  file = {/home/kellen/Downloads/pdfs/storage/8T83X33L/Echchahed and Castro - 2025 - A Survey of State Representation Learning for Deep.pdf}
+}
+
 @article{ellisAdamLocalTime,
   title = {Adam on {{Local Time}}: {{Addressing Nonstationarity}} in {{RL}} with {{Relative Adam Timesteps}}},
   author = {Ellis, Benjamin and Jackson, Matthew T and Lupu, Andrei and Goldie, Alexander D},
@@ -570,6 +662,25 @@
   file = {/home/kellen/Downloads/pdfs/storage/2HFK85PR/Elsayed et al. - 2024 - Streaming Deep Reinforcement Learning Finally Works.pdf}
 }
 
+@misc{elsayedUtilitybasedPerturbedGradient2023,
+  title = {Utility-Based {{Perturbed Gradient Descent}}: {{An Optimizer}} for {{Continual Learning}}},
+  shorttitle = {Utility-Based {{Perturbed Gradient Descent}}},
+  author = {Elsayed, Mohamed and Mahmood, A. Rupam},
+  year = {2023},
+  month = apr,
+  number = {arXiv:2302.03281},
+  eprint = {2302.03281},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2302.03281},
+  urldate = {2025-06-27},
+  abstract = {Modern representation learning methods often struggle to adapt quickly under non-stationarity because they suffer from catastrophic forgetting and decaying plasticity. Such problems prevent learners from fast adaptation since they may forget useful features or have difficulty learning new ones. Hence, these methods are rendered ineffective for continual learning. This paper proposes Utility-based Perturbed Gradient Descent (UPGD), an online learning algorithm well-suited for continual learning agents. UPGD protects useful weights or features from forgetting and perturbs less useful ones based on their utilities. Our empirical results show that UPGD helps reduce forgetting and maintain plasticity, enabling modern representation learning methods to work effectively in continual learning.},
+  archiveprefix = {arXiv},
+  langid = {english},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Machine Learning},
+  file = {/home/kellen/Downloads/pdfs/storage/2RCAQS2F/Elsayed and Mahmood - 2023 - Utility-based Perturbed Gradient Descent An Optim.pdf}
+}
+
 @misc{eysenbachContrastiveLearningGoalConditioned2023,
   title = {Contrastive {{Learning}} as {{Goal-Conditioned Reinforcement Learning}}},
   author = {Eysenbach, Benjamin and Zhang, Tianjun and Salakhutdinov, Ruslan and Levine, Sergey},
@@ -585,6 +696,25 @@
   archiveprefix = {arXiv},
   keywords = {Computer Science - Artificial Intelligence,Computer Science - Machine Learning},
   file = {/home/kellen/Downloads/pdfs/storage/WVQKIMN4/Eysenbach et al. - 2023 - Contrastive Learning as Goal-Conditioned Reinforcement Learning.pdf}
+}
+
+@misc{eysenbachDiversityAllYou2018,
+  title = {Diversity Is {{All You Need}}: {{Learning Skills}} without a {{Reward Function}}},
+  shorttitle = {Diversity Is {{All You Need}}},
+  author = {Eysenbach, Benjamin and Gupta, Abhishek and Ibarz, Julian and Levine, Sergey},
+  year = {2018},
+  month = oct,
+  number = {arXiv:1802.06070},
+  eprint = {1802.06070},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.1802.06070},
+  urldate = {2025-06-30},
+  abstract = {Intelligent creatures can explore their environments and learn useful skills without supervision. In this paper, we propose ``Diversity is All You Need''(DIAYN), a method for learning useful skills without a reward function. Our proposed method learns skills by maximizing an information theoretic objective using a maximum entropy policy. On a variety of simulated robotic tasks, we show that this simple objective results in the unsupervised emergence of diverse skills, such as walking and jumping. In a number of reinforcement learning benchmark environments, our method is able to learn a skill that solves the benchmark task despite never receiving the true task reward. We show how pretrained skills can provide a good parameter initialization for downstream tasks, and can be composed hierarchically to solve complex, sparse reward tasks. Our results suggest that unsupervised discovery of skills can serve as an effective pretraining mechanism for overcoming challenges of exploration and data efficiency in reinforcement learning.},
+  archiveprefix = {arXiv},
+  langid = {english},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Robotics},
+  file = {/home/kellen/Downloads/pdfs/storage/RMASJINK/Eysenbach et al. - 2018 - Diversity is All You Need Learning Skills without.pdf}
 }
 
 @inproceedings{eysenbachInformationGeometryUnsupervised2021,
@@ -621,6 +751,14 @@
   archiveprefix = {arXiv},
   keywords = {Computer Science - Artificial Intelligence,Computer Science - Machine Learning,Statistics - Machine Learning},
   file = {/home/kellen/Downloads/pdfs/storage/2V2SR66H/Farebrother et al. - 2025 - Temporal Difference Flows.pdf;/home/kellen/Downloads/pdfs/storage/D27PSL2L/2503.html}
+}
+
+@article{florensaAutomaticGoalGeneration,
+  title = {Automatic {{Goal Generation}} for {{Reinforcement Learning Agents}}},
+  author = {Florensa, Carlos and Held, David and Geng, Xinyang and Abbeel, Pieter},
+  abstract = {Reinforcement learning (RL) is a powerful technique to train an agent to perform a task; however, an agent that is trained using RL is only capable of achieving the single task that is specified via its reward function. Such an approach does not scale well to settings in which an agent needs to perform a diverse set of tasks, such as navigating to varying positions in a room or moving objects to varying locations. Instead, we propose a method that allows an agent to automatically discover the range of tasks that it is capable of performing in its environment. We use a generator network to propose tasks for the agent to try to accomplish, each task being specified as reaching a certain parametrized subset of the state-space. The generator network is optimized using adversarial training to produce tasks that are always at the appropriate level of difficulty for the agent, thus automatically producing a curriculum. We show that, by using this framework, an agent can efficiently and automatically learn to perform a wide set of tasks without requiring any prior knowledge of its environment, even when only sparse rewards are available. Videos and code available at: https://sites.google.com/view/ goalgeneration4rl.},
+  langid = {english},
+  file = {/home/kellen/Downloads/pdfs/storage/HZV43KRX/Florensa et al. - Automatic Goal Generation for Reinforcement Learni.pdf}
 }
 
 @misc{fosterFoundationsReinforcementLearning2023,
@@ -676,6 +814,31 @@
   file = {/home/kellen/Downloads/pdfs/storage/FUDVV3U4/Frans et al. - 2024 - Unsupervised Zero-Shot Reinforcement Learning via Functional Reward Encodings.pdf}
 }
 
+@misc{fujimotoGeneralPurposeModelFreeReinforcement2025,
+  title = {Towards {{General-Purpose Model-Free Reinforcement Learning}}},
+  author = {Fujimoto, Scott and D'Oro, Pierluca and Zhang, Amy and Tian, Yuandong and Rabbat, Michael},
+  year = {2025},
+  month = jan,
+  number = {arXiv:2501.16142},
+  eprint = {2501.16142},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2501.16142},
+  urldate = {2025-07-01},
+  abstract = {Reinforcement learning (RL) promises a framework for near-universal problemsolving. In practice however, RL algorithms are often tailored to specific benchmarks, relying on carefully tuned hyperparameters and algorithmic choices. Recently, powerful model-based RL methods have shown impressive general results across benchmarks but come at the cost of increased complexity and slow run times, limiting their broader applicability. In this paper, we attempt to find a unifying model-free deep RL algorithm that can address a diverse class of domains and problem settings. To achieve this, we leverage model-based representations that approximately linearize the value function, taking advantage of the denser task objectives used by model-based RL while avoiding the costs associated with planning or simulated trajectories. We evaluate our algorithm, MR.Q, on a variety of common RL benchmarks with a single set of hyperparameters and show a competitive performance against domain-specific and general baselines, providing a concrete step towards building general-purpose model-free deep RL algorithms.},
+  archiveprefix = {arXiv},
+  langid = {english},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Machine Learning},
+  file = {/home/kellen/Downloads/pdfs/storage/I3ZRN2A7/Fujimoto et al. - 2025 - Towards General-Purpose Model-Free Reinforcement L.pdf}
+}
+
+@misc{gaoDiffusionMeetsFlow2024,
+  title = {Diffusion {{Meets Flow Matching}}: {{Two Sides}} of the {{Same Coin}}},
+  author = {Gao, Ruiqi and Hoogeboom, Emiel and Heek, Jonathan and De Bortoli, Valentin and Murphy, Kevin P. and Salimans, Tim},
+  year = {2024},
+  month = dec
+}
+
 @article{garrettIntegratedTaskMotion2021,
   type = {Journal {{Article}}},
   title = {Integrated {{Task}} and {{Motion Planning}}},
@@ -690,6 +853,24 @@
   doi = {10.1146/annurev-control-091420-084139},
   abstract = {The problem of planning for a robot that operates in environments containing a large number of objects, taking actions to move itself through the world as well as to change the state of the objects, is known as task and motion planning (TAMP). TAMP problems contain elements of discrete task planning, discrete--continuous mathematical programming, and continuous motion planning and thus cannot be effectively addressed by any of these fields directly. In this article, we define a class of TAMP problems and survey algorithms for solving them, characterizing the solution methods in terms of their strategies for solving the continuous-space subproblems and their techniques for integrating the discrete and continuous components of the search.},
   keywords = {robotics}
+}
+
+@misc{ghugareNormalizingFlowsAre2025,
+  title = {Normalizing {{Flows}} Are {{Capable Models}} for {{RL}}},
+  author = {Ghugare, Raj and Eysenbach, Benjamin},
+  year = {2025},
+  month = jun,
+  number = {arXiv:2505.23527},
+  eprint = {2505.23527},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2505.23527},
+  urldate = {2025-06-30},
+  abstract = {Modern reinforcement learning (RL) algorithms have found success by using powerful probabilistic models, such as transformers, energy-based models, and diffusion/flow-based models. To this end, RL researchers often choose to pay the price of accommodating these models into their algorithms -- diffusion models are expressive, but are computationally intensive due to their reliance on solving differential equations, while autoregressive transformer models are scalable but typically require learning discrete representations. Normalizing flows (NFs), by contrast, seem to provide an appealing alternative, as they enable likelihoods and sampling without solving differential equations or autoregressive architectures. However, their potential in RL has received limited attention, partly due to the prevailing belief that normalizing flows lack sufficient expressivity. We show that this is not the case. Building on recent work in NFs, we propose a single NF architecture which integrates seamlessly into RL algorithms, serving as a policy, Q-function, and occupancy measure. Our approach leads to much simpler algorithms, and achieves higher performance in imitation learning, offline, goal conditioned RL and unsupervised RL.},
+  archiveprefix = {arXiv},
+  langid = {english},
+  keywords = {Computer Science - Machine Learning},
+  file = {/home/kellen/Downloads/pdfs/storage/IW3SLYLD/Ghugare and Eysenbach - 2025 - Normalizing Flows are Capable Models for RL.pdf}
 }
 
 @misc{gomezProperLaplacianRepresentation2024,
@@ -1052,6 +1233,25 @@
   file = {/home/kellen/Downloads/pdfs/storage/RJ3AYCQA/Klissarov and Machado - 2023 - Deep Laplacian-based Options for Temporally-Extended Exploration.pdf}
 }
 
+@misc{klissarovDiscoveringTemporalStructure2025,
+  title = {Discovering {{Temporal Structure}}: {{An Overview}} of {{Hierarchical Reinforcement Learning}}},
+  shorttitle = {Discovering {{Temporal Structure}}},
+  author = {Klissarov, Martin and Bagaria, Akhil and Luo, Ziyan and Konidaris, George and Precup, Doina and Machado, Marlos C.},
+  year = {2025},
+  month = jun,
+  number = {arXiv:2506.14045},
+  eprint = {2506.14045},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2506.14045},
+  urldate = {2025-06-27},
+  abstract = {Developing agents capable of exploring, planning and learning in complex open-ended environments is a grand challenge in artificial intelligence (AI). Hierarchical reinforcement learning (HRL) offers a promising solution to this challenge by discovering and exploiting the temporal structure within a stream of experience. The strong appeal of the HRL framework has led to a rich and diverse body of literature attempting to discover a useful structure. However, it is still not clear how one might define what constitutes good structure in the first place, or the kind of problems in which identifying it may be helpful. This work aims to identify the benefits of HRL from the perspective of the fundamental challenges in decision-making, as well as highlight its impact on the performance trade-offs of AI agents. Through these benefits, we then cover the families of methods that discover temporal structure in HRL, ranging from learning directly from online experience to offline datasets, to leveraging large language models (LLMs). Finally, we highlight the challenges of temporal structure discovery and the domains that are particularly well-suited for such endeavours.},
+  archiveprefix = {arXiv},
+  langid = {english},
+  keywords = {Computer Science - Artificial Intelligence},
+  file = {/home/kellen/Downloads/pdfs/storage/5WDE2SRD/Klissarov et al. - 2025 - Discovering Temporal Structure An Overview of Hie.pdf}
+}
+
 @misc{klissarovMaestroMotifSkillDesign2024,
   title = {{{MaestroMotif}}: {{Skill Design}} from {{Artificial Intelligence Feedback}}},
   shorttitle = {{{MaestroMotif}}},
@@ -1096,14 +1296,6 @@
   file = {/home/kellen/Downloads/pdfs/storage/P465ZLK5/Konidaris and Barto - Efficient Skill Learning using Abstraction Selection.pdf}
 }
 
-@article{kulkarniHierarchicalDeepReinforcement,
-  title = {Hierarchical {{Deep Reinforcement Learning}}: {{Integrating Temporal Abstraction}} and {{Intrinsic Motivation}}},
-  author = {Kulkarni, Tejas D and Narasimhan, Karthik and Saeedi, Ardavan and Tenenbaum, Josh},
-  abstract = {Learning goal-directed behavior in environments with sparse feedback is a major challenge for reinforcement learning algorithms. One of the key difficulties is insufficient exploration, resulting in an agent being unable to learn robust policies. Intrinsically motivated agents can explore new behavior for their own sake rather than to directly solve external goals. Such intrinsic behaviors could eventually help the agent solve tasks posed by the environment. We present hierarchicalDQN (h-DQN), a framework to integrate hierarchical action-value functions, operating at different temporal scales, with goal-driven intrinsically motivated deep reinforcement learning. A top-level q-value function learns a policy over intrinsic goals, while a lower-level function learns a policy over atomic actions to satisfy the given goals. h-DQN allows for flexible goal specifications, such as functions over entities and relations. This provides an efficient space for exploration in complicated environments. We demonstrate the strength of our approach on two problems with very sparse and delayed feedback: (1) a complex discrete stochastic decision process with stochastic transitions, and (2) the classic ATARI game --`Montezuma's Revenge'.},
-  langid = {english},
-  file = {/home/kellen/Downloads/pdfs/storage/A2XACTEA/Kulkarni et al. - Hierarchical Deep Reinforcement Learning Integrat.pdf}
-}
-
 @misc{kumarDR3ValueBasedDeep2021,
   title = {{{DR3}}: {{Value-Based Deep Reinforcement Learning Requires Explicit Regularization}}},
   shorttitle = {{{DR3}}},
@@ -1120,6 +1312,25 @@
   langid = {english},
   keywords = {Computer Science - Machine Learning},
   file = {/home/kellen/Downloads/pdfs/storage/S9MJBMRM/Kumar et al. - 2021 - DR3 Value-Based Deep Reinforcement Learning Requires Explicit Regularization.pdf}
+}
+
+@misc{kumarNeedBigWorld2024,
+  title = {The {{Need}} for a {{Big World Simulator}}: {{A Scientific Challenge}} for {{Continual Learning}}},
+  shorttitle = {The {{Need}} for a {{Big World Simulator}}},
+  author = {Kumar, Saurabh and Jeon, Hong Jun and Lewandowski, Alex and Roy, Benjamin Van},
+  year = {2024},
+  month = aug,
+  number = {arXiv:2408.02930},
+  eprint = {2408.02930},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2408.02930},
+  urldate = {2025-06-27},
+  abstract = {The ``small agent, big world'' frame offers a conceptual view that motivates the need for continual learning. The idea is that a small agent operating in a much bigger world cannot store all information that the world has to offer. To perform well, the agent must be carefully designed to ingest, retain, and eject the right information. To enable the development of performant continual learning agents, a number of synthetic environments have been proposed. However, these benchmarks suffer from limitations, including unnatural distribution shifts and a lack of fidelity to the ``small agent, big world'' framing. This paper aims to formalize two desiderata for the design of future simulated environments. These two criteria aim to reflect the objectives and complexity of continual learning in practical settings while enabling rapid prototyping of algorithms on a smaller scale.},
+  archiveprefix = {arXiv},
+  langid = {english},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Machine Learning},
+  file = {/home/kellen/Downloads/pdfs/storage/2G4W3ULT/Kumar et al. - 2024 - The Need for a Big World Simulator A Scientific C.pdf}
 }
 
 @inproceedings{kunchevPathPlanningObstacle2006,
@@ -1382,6 +1593,25 @@
   file = {/home/kellen/Downloads/pdfs/storage/4INDYLDI/Lipman et al. - 2024 - Flow Matching Guide and Code.pdf}
 }
 
+@misc{liuFlowStraightFast2022,
+  title = {Flow {{Straight}} and {{Fast}}: {{Learning}} to {{Generate}} and {{Transfer Data}} with {{Rectified Flow}}},
+  shorttitle = {Flow {{Straight}} and {{Fast}}},
+  author = {Liu, Xingchao and Gong, Chengyue and Liu, Qiang},
+  year = {2022},
+  month = sep,
+  number = {arXiv:2209.03003},
+  eprint = {2209.03003},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2209.03003},
+  urldate = {2025-07-01},
+  abstract = {We present rectified flow, a surprisingly simple approach to learning (neural) ordinary differential equation (ODE) models to transport between two empirically observed distributions {$\pi$}0 and {$\pi$}1, hence providing a unified solution to generative modeling and domain transfer, among various other tasks involving distribution transport. The idea of rectified flow is to learn the ODE to follow the straight paths connecting the points drawn from {$\pi$}0 and {$\pi$}1 as much as possible. This is achieved by solving a straightforward nonlinear least squares optimization problem, which can be easily scaled to large models without introducing extra parameters beyond standard supervised learning. The straight paths are special and preferred because they are the shortest paths between two points, and can be simulated exactly without time discretization and hence yield computationally efficient models. We show that the procedure of learning a rectified flow from data, called rectification, turns an arbitrary coupling of {$\pi$}0 and {$\pi$}1 to a new deterministic coupling with provably non-increasing convex transport costs. In addition, recursively applying rectification allows us to obtain a sequence of flows with increasingly straight paths, which can be simulated accurately with coarse time discretization in the inference phase. In empirical studies, we show that rectified flow performs superbly on image generation, image-to-image translation, and domain adaptation. In particular, on image generation and translation, our method yields nearly straight flows that give high quality results even with a single Euler discretization step.},
+  archiveprefix = {arXiv},
+  langid = {english},
+  keywords = {Computer Science - Machine Learning},
+  file = {/home/kellen/Downloads/pdfs/storage/49M9XQS5/Liu et al. - 2022 - Flow Straight and Fast Learning to Generate and T.pdf}
+}
+
 @misc{liuLearningPoliciesZero2023,
   title = {Learning {{Policies}} with {{Zero}} or {{Bounded Constraint Violation}} for {{Constrained MDPs}}},
   author = {Liu, Tao and Zhou, Ruida and Kalathil, Dileep and Kumar, P. R. and Tian, Chao},
@@ -1433,24 +1663,6 @@
   archiveprefix = {arXiv},
   keywords = {Computer Science - Artificial Intelligence,Computer Science - Machine Learning},
   file = {/home/kellen/Downloads/pdfs/storage/U8KGMTC6/Liu et al. - 2024 - A Single Goal is All You Need Skills and Exploration Emerge from Contrastive RL without Rewards, De.pdf}
-}
-
-@misc{logeswaranFewshotSubgoalPlanning2022,
-  title = {Few-Shot {{Subgoal Planning}} with {{Language Models}}},
-  author = {Logeswaran, Lajanugen and Fu, Yao and Lee, Moontae and Lee, Honglak},
-  year = {2022},
-  month = may,
-  number = {arXiv:2205.14288},
-  eprint = {2205.14288},
-  primaryclass = {cs},
-  publisher = {arXiv},
-  doi = {10.48550/arXiv.2205.14288},
-  urldate = {2025-06-26},
-  abstract = {Pre-trained large language models have shown successful progress in many language understanding benchmarks. This work explores the capability of these models to predict actionable plans in real-world environments. Given a text instruction, we show that language priors encoded in pre-trained language models allow us to infer fine-grained subgoal sequences. In contrast to recent methods which make strong assumptions about subgoal supervision, our experiments show that language models can infer detailed subgoal sequences from few training sequences without any fine-tuning. We further propose a simple strategy to re-rank language model predictions based on interaction and feedback from the environment. Combined with pre-trained navigation and visual reasoning components, our approach demonstrates competitive performance on subgoal prediction and task completion in the ALFRED benchmark compared to prior methods that assume more subgoal supervision.},
-  archiveprefix = {arXiv},
-  langid = {english},
-  keywords = {Computer Science - Computation and Language},
-  file = {/home/kellen/Downloads/pdfs/storage/3P5CJFME/Logeswaran et al. - 2022 - Few-shot Subgoal Planning with Language Models.pdf}
 }
 
 @misc{lowreyPlanOnlineLearn2019,
@@ -1632,6 +1844,25 @@
   keywords = {Computer Science - Artificial Intelligence,Computer Science - Machine Learning}
 }
 
+@misc{mcclintonHACExploreAccelerating2021,
+  title = {{{HAC Explore}}: {{Accelerating Exploration}} with {{Hierarchical Reinforcement Learning}}},
+  shorttitle = {{{HAC Explore}}},
+  author = {McClinton, Willie and Levy, Andrew and Konidaris, George},
+  year = {2021},
+  month = aug,
+  number = {arXiv:2108.05872},
+  eprint = {2108.05872},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2108.05872},
+  urldate = {2025-06-27},
+  abstract = {Sparse rewards and long time horizons remain challenging for reinforcement learning algorithms. Exploration bonuses can help in sparse reward settings by encouraging agents to explore the state space, while hierarchical approaches can assist with long-horizon tasks by decomposing lengthy tasks into shorter subtasks. We propose HAC Explore (HACx), a new method that combines these approaches by integrating the exploration bonus method Random Network Distillation (RND) into the hierarchical approach Hierarchical Actor-Critic (HAC). HACx outperforms either component method on its own, as well as an existing approach to combining hierarchy and exploration, in a set of difficult simulated robotics tasks. HACx is the first RL method to solve a sparse reward, continuous-control task that requires over 1,000 actions.},
+  archiveprefix = {arXiv},
+  langid = {english},
+  keywords = {Computer Science - Artificial Intelligence},
+  file = {/home/kellen/Downloads/pdfs/storage/EQGR2TYU/McClinton et al. - 2021 - HAC Explore Accelerating Exploration with Hierarc.pdf}
+}
+
 @misc{mcleodContinualAuxiliaryTask2022,
   title = {Continual {{Auxiliary Task Learning}}},
   author = {McLeod, Matthew and Lo, Chunlok and Schlegel, Matthew and Jacobsen, Andrew and Kumaraswamy, Raksha and White, Martha and White, Adam},
@@ -1666,7 +1897,7 @@
   file = {/home/kellen/Downloads/pdfs/storage/3R38Z36Y/Montavon et al. - 2012 - Neural Networks Tricks of the Trade Second Edition.pdf}
 }
 
-@misc{moonDiscoveringHierarchicalAchievements2023a,
+@misc{moonDiscoveringHierarchicalAchievements2023,
   title = {Discovering {{Hierarchical Achievements}} in {{Reinforcement Learning}} via {{Contrastive Learning}}},
   author = {Moon, Seungyong and Yeom, Junyoung and Park, Bumsoo and Song, Hyun Oh},
   year = {2023},
@@ -1699,6 +1930,14 @@
   langid = {english},
   keywords = {Computer Science - Information Theory,Computer Science - Machine Learning,Statistics - Machine Learning},
   file = {/home/kellen/Downloads/pdfs/storage/5NKQB3ZU/Mroueh - 2024 - Information Theoretic Guarantees For Policy Alignment In Large Language Models.pdf}
+}
+
+@article{muImprovingIntrinsicExploration,
+  title = {Improving {{Intrinsic Exploration}} with {{Language Abstractions}}},
+  author = {Mu, Jesse and Zhong, Victor and Raileanu, Roberta and Jiang, Minqi and Goodman, Noah and Rockt{\"a}schel, Tim and Grefenstette, Edward},
+  abstract = {Reinforcement learning (RL) agents are particularly hard to train when rewards are sparse. One common solution is to use intrinsic rewards to encourage agents to explore their environment. However, recent intrinsic exploration methods often use state-based novelty measures which reward low-level exploration and may not scale to domains requiring more abstract skills. Instead, we explore language as a general medium for highlighting relevant abstractions in an environment. Unlike previous work, we evaluate whether language can improve over existing exploration methods by directly extending (and comparing to) competitive intrinsic exploration baselines: AMIGo (Campero et al., 2021) and NovelD (Zhang et al., 2021). These language-based variants outperform their non-linguistic forms by 47--85\% across 13 challenging tasks from the MiniGrid and MiniHack environment suites.},
+  langid = {english},
+  file = {/home/kellen/Downloads/pdfs/storage/BSEUWMD8/Mu et al. - Improving Intrinsic Exploration with Language Abst.pdf}
 }
 
 @misc{myersHorizonGeneralizationReinforcement2025,
@@ -1961,6 +2200,24 @@
   file = {/home/kellen/Downloads/pdfs/storage/QP6P6B9C/Parisotto et al. - 2019 - Stabilizing Transformers for Reinforcement Learning.pdf}
 }
 
+@misc{parkFlowQLearning2025,
+  title = {Flow {{Q-Learning}}},
+  author = {Park, Seohong and Li, Qiyang and Levine, Sergey},
+  year = {2025},
+  month = may,
+  number = {arXiv:2502.02538},
+  eprint = {2502.02538},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2502.02538},
+  urldate = {2025-07-01},
+  abstract = {We present flow Q-learning (FQL), a simple and performant offline reinforcement learning (RL) method that leverages an expressive flow-matching policy to model arbitrarily complex action distributions in data. Training a flow policy with RL is a tricky problem, due to the iterative nature of the action generation process. We address this challenge by training an expressive one-step policy with RL, rather than directly guiding an iterative flow policy to maximize values. This way, we can completely avoid unstable recursive backpropagation, eliminate costly iterative action generation at test time, yet still mostly maintain expressivity. We experimentally show that FQL leads to strong performance across 73 challenging state- and pixel-based OGBench and D4RL tasks in offline RL and offline-to-online RL. Project page: https://seohong.me/projects/fql/},
+  archiveprefix = {arXiv},
+  langid = {english},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Machine Learning},
+  file = {/home/kellen/Downloads/pdfs/storage/83WF47FI/Park et al. - 2025 - Flow Q-Learning.pdf}
+}
+
 @misc{parkFoundationPoliciesHilbert2024,
   title = {Foundation {{Policies}} with {{Hilbert Representations}}},
   author = {Park, Seohong and Kreiman, Tobias and Levine, Sergey},
@@ -1995,6 +2252,24 @@
   file = {/home/kellen/Downloads/pdfs/storage/GZMYP9DB/Park et al. - 2025 - Horizon Reduction Makes RL Scalable.pdf;/home/kellen/Downloads/pdfs/storage/GF47MGGU/2506.html}
 }
 
+@misc{parkHorizonReductionMakes2025a,
+  title = {Horizon {{Reduction Makes RL Scalable}}},
+  author = {Park, Seohong and Frans, Kevin and Mann, Deepinder and Eysenbach, Benjamin and Kumar, Aviral and Levine, Sergey},
+  year = {2025},
+  month = jun,
+  number = {arXiv:2506.04168},
+  eprint = {2506.04168},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2506.04168},
+  urldate = {2025-07-01},
+  abstract = {In this work, we study the scalability of offline reinforcement learning (RL) algorithms. In principle, a truly scalable offline RL algorithm should be able to solve any given problem, regardless of its complexity, given sufficient data, compute, and model capacity. We investigate if and how current offline RL algorithms match up to this promise on diverse, challenging, previously unsolved tasks, using datasets up to 1000x larger than typical offline RL datasets. We observe that despite scaling up data, many existing offline RL algorithms exhibit poor scaling behavior, saturating well below the maximum performance. We hypothesize that the horizon is the main cause behind the poor scaling of offline RL. We empirically verify this hypothesis through several analysis experiments, showing that long horizons indeed present a fundamental barrier to scaling up offline RL. We then show that various horizon reduction techniques substantially enhance scalability on challenging tasks. Based on our insights, we also introduce a minimal yet scalable method named SHARSA that effectively reduces the horizon. SHARSA achieves the best asymptotic performance and scaling behavior among our evaluation methods, showing that explicitly reducing the horizon unlocks the scalability of offline RL. Code: https://github.com/seohongpark/horizon-reduction},
+  archiveprefix = {arXiv},
+  langid = {english},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Machine Learning},
+  file = {/home/kellen/Downloads/pdfs/storage/ZTBUYVHS/Park et al. - 2025 - Horizon Reduction Makes RL Scalable.pdf}
+}
+
 @article{parkLIPSCHITZCONSTRAINEDUNSUPERVISEDSKILL2022,
   title = {{{LIPSCHITZ-CONSTRAINED UNSUPERVISED SKILL DISCOVERY}}},
   author = {Park, Seohong and Choi, Jongwook and Kim, Jaekyeom and Lee, Honglak and Kim, Gunhee},
@@ -2002,6 +2277,13 @@
   abstract = {We study the problem of unsupervised skill discovery, whose goal is to learn a set of diverse and useful skills with no external reward. There have been a number of skill discovery methods based on maximizing the mutual information (MI) between skills and states. However, we point out that their MI objectives usually prefer static skills to dynamic ones, which may hinder the application for downstream tasks. To address this issue, we propose Lipschitz-constrained Skill Discovery (LSD), which encourages the agent to discover more diverse, dynamic, and far-reaching skills. Another benefit of LSD is that its learned representation function can be utilized for solving goal-following downstream tasks even in a zero-shot manner --- i.e., without further training or complex planning. Through experiments on various MuJoCo robotic locomotion and manipulation environments, we demonstrate that LSD outperforms previous approaches in terms of skill diversity, state space coverage, and performance on seven downstream tasks including the challenging task of following multiple goals on Humanoid. Our code and videos are available at https://shpark.me/projects/lsd/.},
   langid = {english},
   file = {/home/kellen/Downloads/pdfs/storage/EZ9YLY62/Park et al. - 2022 - LIPSCHITZ-CONSTRAINED UNSUPERVISED SKILL DISCOVERY.pdf}
+}
+
+@misc{parkQlearningNotScalable2025,
+  title = {Q-Learning Is Not yet Scalable},
+  author = {Park, Seohong},
+  year = {2025},
+  month = jun
 }
 
 @misc{paternainSafePoliciesReinforcement2022,
@@ -2055,6 +2337,13 @@
   langid = {english},
   keywords = {Computer Science - Artificial Intelligence,Computer Science - Machine Learning},
   file = {/home/kellen/Downloads/pdfs/storage/E6YDS983/Pires et al. - 2023 - Hierarchical Reinforcement Learning in Complex 3D Environments.pdf}
+}
+
+@article{pitisMaximumEntropyGain,
+  title = {Maximum {{Entropy Gain Exploration}} for {{Long Horizon Multi-goal Reinforcement Learning}}},
+  author = {Pitis, Silviu and Chan, Harris and Zhao, Stephen and Stadie, Bradly},
+  langid = {english},
+  file = {/home/kellen/Downloads/pdfs/storage/XG7ZYYIG/Pitis et al. - Maximum Entropy Gain Exploration for Long Horizon .pdf}
 }
 
 @misc{prietoGrokkingEdgeNumerical2025,
@@ -2263,12 +2552,49 @@
   file = {/home/kellen/Downloads/pdfs/storage/I7Y4VSFZ/Schrittwieser et al. - 2020 - Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model.pdf}
 }
 
+@misc{schulmanProximalPolicyOptimization2017,
+  title = {Proximal {{Policy Optimization Algorithms}}},
+  author = {Schulman, John and Wolski, Filip and Dhariwal, Prafulla and Radford, Alec and Klimov, Oleg},
+  year = {2017},
+  month = aug,
+  number = {arXiv:1707.06347},
+  eprint = {1707.06347},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.1707.06347},
+  urldate = {2025-06-27},
+  abstract = {We propose a new family of policy gradient methods for reinforcement learning, which alternate between sampling data through interaction with the environment, and optimizing a ``surrogate'' objective function using stochastic gradient ascent. Whereas standard policy gradient methods perform one gradient update per data sample, we propose a novel objective function that enables multiple epochs of minibatch updates. The new methods, which we call proximal policy optimization (PPO), have some of the benefits of trust region policy optimization (TRPO), but they are much simpler to implement, more general, and have better sample complexity (empirically). Our experiments test PPO on a collection of benchmark tasks, including simulated robotic locomotion and Atari game playing, and we show that PPO outperforms other online policy gradient methods, and overall strikes a favorable balance between sample complexity, simplicity, and wall-time.},
+  archiveprefix = {arXiv},
+  langid = {english},
+  keywords = {Computer Science - Machine Learning},
+  file = {/home/kellen/Downloads/pdfs/storage/UUPSNPZG/Schulman et al. - 2017 - Proximal Policy Optimization Algorithms.pdf}
+}
+
 @article{seoStateEntropyMaximization,
   title = {State {{Entropy Maximization}} with {{Random Encoders}} for {{Efficient Exploration}}},
   author = {Seo, Younggyo and Chen, Lili and Shin, Jinwoo and Lee, Honglak and Abbeel, Pieter and Lee, Kimin},
   abstract = {Recent exploration methods have proven to be a recipe for improving sample-efficiency in deep reinforcement learning (RL). However, efficient exploration in high-dimensional observation spaces still remains a challenge. This paper presents Random Encoders for Efficient Exploration (RE3), an exploration method that utilizes state entropy as an intrinsic reward. In order to estimate state entropy in environments with high-dimensional observations, we utilize a k-nearest neighbor entropy estimator in the low-dimensional representation space of a convolutional encoder. In particular, we find that the state entropy can be estimated in a stable and compute-efficient manner by utilizing a randomly initialized encoder, which is fixed throughout training. Our experiments show that RE3 significantly improves the sample-efficiency of both model-free and model-based RL methods on locomotion and navigation tasks from DeepMind Control Suite and MiniGrid benchmarks. We also show that RE3 allows learning diverse behaviors without extrinsic rewards, effectively improving sample-efficiency in downstream tasks.},
   langid = {english},
   file = {/home/kellen/Downloads/pdfs/storage/WN9MVGSS/Seo et al. - State Entropy Maximization with Random Encoders fo.pdf}
+}
+
+@misc{shaoDeepSeekMathPushingLimits2024,
+  title = {{{DeepSeekMath}}: {{Pushing}} the {{Limits}} of {{Mathematical Reasoning}} in {{Open Language Models}}},
+  shorttitle = {{{DeepSeekMath}}},
+  author = {Shao, Zhihong and Wang, Peiyi and Zhu, Qihao and Xu, Runxin and Song, Junxiao and Bi, Xiao and Zhang, Haowei and Zhang, Mingchuan and Li, Y. K. and Wu, Y. and Guo, Daya},
+  year = {2024},
+  month = apr,
+  number = {arXiv:2402.03300},
+  eprint = {2402.03300},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2402.03300},
+  urldate = {2025-06-27},
+  abstract = {Mathematical reasoning poses a significant challenge for language models due to its complex and structured nature. In this paper, we introduce DeepSeekMath 7B, which continues pretraining DeepSeek-Coder-Base-v1.5 7B with 120B math-related tokens sourced from Common Crawl, together with natural language and code data. DeepSeekMath 7B has achieved an impressive score of 51.7\% on the competition-level MATH benchmark without relying on external toolkits and voting techniques, approaching the performance level of Gemini-Ultra and GPT-4. Self-consistency over 64 samples from DeepSeekMath 7B achieves 60.9\% on MATH. The mathematical reasoning capability of DeepSeekMath is attributed to two key factors: First, we harness the significant potential of publicly available web data through a meticulously engineered data selection pipeline. Second, we introduce Group Relative Policy Optimization (GRPO), a variant of Proximal Policy Optimization (PPO), that enhances mathematical reasoning abilities while concurrently optimizing the memory usage of PPO.},
+  archiveprefix = {arXiv},
+  langid = {english},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Machine Learning},
+  file = {/home/kellen/Downloads/pdfs/storage/A4KAUF66/Shao et al. - 2024 - DeepSeekMath Pushing the Limits of Mathematical R.pdf}
 }
 
 @misc{sharifnassabMetaOptimizeFrameworkOptimizing2024,
@@ -2470,6 +2796,39 @@
   file = {/home/kellen/Downloads/pdfs/storage/DY4UI6G7/Sutton and Barto - 2018 - Reinforcement learning an introduction.pdf}
 }
 
+@article{suttonRewardrespectingSubtasksModelbased2023,
+  title = {Reward-Respecting Subtasks for Model-Based Reinforcement Learning},
+  author = {Sutton, Richard S. and Machado, Marlos C. and Holland, G. Zacharias and Szepesvari, David and Timbers, Finbarr and Tanner, Brian and White, Adam},
+  year = {2023},
+  month = nov,
+  journal = {Artificial Intelligence},
+  volume = {324},
+  pages = {104001},
+  issn = {00043702},
+  doi = {10.1016/j.artint.2023.104001},
+  urldate = {2025-06-27},
+  langid = {english},
+  file = {/home/kellen/Downloads/pdfs/storage/NVDLPRUE/Sutton et al. - 2023 - Reward-respecting subtasks for model-based reinfor.pdf}
+}
+
+@misc{tangMitigatingPlasticityLoss2025,
+  title = {Mitigating {{Plasticity Loss}} in {{Continual Reinforcement Learning}} by {{Reducing Churn}}},
+  author = {Tang, Hongyao and {Obando-Ceron}, Johan and Castro, Pablo Samuel and Courville, Aaron and Berseth, Glen},
+  year = {2025},
+  month = may,
+  number = {arXiv:2506.00592},
+  eprint = {2506.00592},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2506.00592},
+  urldate = {2025-06-27},
+  abstract = {Plasticity, or the ability of an agent to adapt to new tasks, environments, or distributions, is crucial for continual learning. In this paper, we study the loss of plasticity in deep continual RL from the lens of churn: network output variability for out-of-batch data induced by mini-batch training. We demonstrate that (1) the loss of plasticity is accompanied by the exacerbation of churn due to the gradual rank decrease of the Neural Tangent Kernel (NTK) matrix; (2) reducing churn helps prevent rank collapse and adjusts the step size of regular RL gradients adaptively. Moreover, we introduce Continual Churn Approximated Reduction (C-CHAIN) and demonstrate it improves learning performance and outperforms baselines in a diverse range of continual learning environments on OpenAI Gym Control, ProcGen, DeepMind Control Suite, and MinAtar benchmarks.},
+  archiveprefix = {arXiv},
+  langid = {english},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Machine Learning},
+  file = {/home/kellen/Downloads/pdfs/storage/PWAQ3ZB5/Tang et al. - 2025 - Mitigating Plasticity Loss in Continual Reinforcem.pdf}
+}
+
 @phdthesis{tarbouriechGoalorientedExplorationReinforcement2022,
   title = {Goal-Oriented Exploration for Reinforcement Learning},
   author = {Tarbouriech, Jean},
@@ -2572,6 +2931,24 @@
   file = {/home/kellen/Downloads/pdfs/storage/FN8MPGES/Touati and Ollivier - 2021 - Learning One Representation to Optimize All Rewards.pdf;/home/kellen/Downloads/pdfs/storage/SXVNRKWC/2103.html}
 }
 
+@misc{tseRewardAwareProtoRepresentationsReinforcement2025,
+  title = {Reward-{{Aware Proto-Representations}} in {{Reinforcement Learning}}},
+  author = {Tse, Hon Tik and Chandrasekar, Siddarth and Machado, Marlos C.},
+  year = {2025},
+  month = may,
+  number = {arXiv:2505.16217},
+  eprint = {2505.16217},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2505.16217},
+  urldate = {2025-06-27},
+  abstract = {In recent years, the successor representation (SR) has attracted increasing attention in reinforcement learning (RL), and it has been used to address some of its key challenges, such as exploration, credit assignment, and generalization. The SR can be seen as representing the underlying credit assignment structure of the environment by implicitly encoding its induced transition dynamics. However, the SR is reward-agnostic. In this paper, we discuss a similar representation that also takes into account the reward dynamics of the problem. We study the default representation (DR), a recently proposed representation with limited theoretical (and empirical) analysis. Here, we lay some of the theoretical foundation underlying the DR in the tabular case by (1) deriving dynamic programming and (2) temporaldifference methods to learn the DR, (3) characterizing the basis for the vector space of the DR, and (4) formally extending the DR to the function approximation case through default features. Empirically, we analyze the benefits of the DR in many of the settings in which the SR has been applied, including (1) reward shaping, (2) option discovery, (3) exploration, and (4) transfer learning. Our results show that, compared to the SR, the DR gives rise to qualitatively different, reward-aware behaviour and quantitatively better performance in several settings.},
+  archiveprefix = {arXiv},
+  langid = {english},
+  keywords = {Computer Science - Machine Learning},
+  file = {/home/kellen/Downloads/pdfs/storage/V4VASC3J/Tse et al. - 2025 - Reward-Aware Proto-Representations in Reinforcemen.pdf}
+}
+
 @article{tsitsiklisAnalysisTemporaldifferenceLearning1997,
   title = {An Analysis of Temporal-Difference Learning with Function Approximation},
   author = {Tsitsiklis, J.N. and Van Roy, B.},
@@ -2660,6 +3037,15 @@
   langid = {english},
   keywords = {Computer Science - Machine Learning},
   file = {/home/kellen/Downloads/pdfs/storage/3QBBT8HR/Wang et al. - 2023 - Investigating the Properties of Neural Network Representations in Reinforcement Learning.pdf}
+}
+
+@article{wangREVISITINGINTRINSICREWARD2023,
+  title = {{{REVISITING INTRINSIC REWARD FOR EXPLORATION IN PROCEDURALLY GENERATED ENVIRONMENTS}}},
+  author = {Wang, Kaixin and Zhou, Kuangqi and Kang, Bingyi and Feng, Jiashi and Yan, Shuicheng},
+  year = {2023},
+  abstract = {Exploration under sparse rewards remains a key challenge in deep reinforcement learning. Recently, studying exploration in procedurally-generated environments has drawn increasing attention. Existing works generally combine lifelong intrinsic rewards and episodic intrinsic rewards to encourage exploration. Though various lifelong and episodic intrinsic rewards have been proposed, the individual contributions of the two kinds of intrinsic rewards to improving exploration are barely investigated. To bridge this gap, we disentangle these two parts and conduct ablative experiments. We consider lifelong and episodic intrinsic rewards used in prior works, and compare the performance of all lifelong-episodic combinations on the commonly used MiniGrid benchmark. Experimental results show that only using episodic intrinsic rewards can match or surpass prior state-of-the-art methods. On the other hand, only using lifelong intrinsic rewards hardly makes progress in exploration. This demonstrates that episodic intrinsic reward is more crucial than lifelong one in boosting exploration. Moreover, we find through experimental analysis that the lifelong intrinsic reward does not accurately reflect the novelty of states, which explains why it does not help much in improving exploration.},
+  langid = {english},
+  file = {/home/kellen/Downloads/pdfs/storage/MC8I3P2R/Wang et al. - 2023 - REVISITING INTRINSIC REWARD FOR EXPLORATION IN PRO.pdf}
 }
 
 @inproceedings{weingertnerMonteCarloTree2020,
@@ -2873,6 +3259,24 @@
   langid = {english},
   keywords = {Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Machine Learning,Computer Science - Robotics},
   file = {/home/kellenkanarios/Downloads/Papers/Hierarchical RL/Zheng et al_2024_Online Intrinsic Rewards for Decision Making Agents from Large Language Model.pdf}
+}
+
+@misc{zhengOnlineIntrinsicRewards2024a,
+  title = {Online {{Intrinsic Rewards}} for {{Decision Making Agents}} from {{Large Language Model Feedback}}},
+  author = {Zheng, Qinqing and Henaff, Mikael and Zhang, Amy and Grover, Aditya and Amos, Brandon},
+  year = {2024},
+  month = dec,
+  number = {arXiv:2410.23022},
+  eprint = {2410.23022},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2410.23022},
+  urldate = {2025-06-27},
+  abstract = {Automatically synthesizing dense rewards from natural language descriptions is a promising paradigm in reinforcement learning (RL), with applications to sparse reward problems, open-ended exploration, and hierarchical skill design. Recent works have made promising steps by exploiting the prior knowledge of large language models (LLMs). However, these approaches suffer from important limitations: they are either not scalable to problems requiring billions of environment samples, due to requiring LLM annotations for each observation, or they require a diverse offline dataset, which may not exist or be impossible to collect. In this work, we address these limitations through a combination of algorithmic and systems-level contributions. We propose ONI, a distributed architecture that simultaneously learns an RL policy and an intrinsic reward function using LLM feedback. Our approach annotates the agent's collected experience via an asynchronous LLM server, which is then distilled into an intrinsic reward model. We explore a range of algorithmic choices for reward modeling with varying complexity, including hashing, classification, and ranking models. By studying their relative tradeoffs, we shed light on questions regarding intrinsic reward design for sparse reward problems. Our approach achieves state-of-the-art performance across a range of challenging, sparse reward tasks from the NetHack Learning Environment in a simple unified process, solely using the agent's gathered experience, without requiring external datasets. We make our code available at https://github.com/facebookresearch/oni.},
+  archiveprefix = {arXiv},
+  langid = {english},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Machine Learning,Computer Science - Robotics},
+  file = {/home/kellen/Downloads/pdfs/storage/R34D6Q59/Zheng et al. - 2024 - Online Intrinsic Rewards for Decision Making Agent.pdf}
 }
 
 @article{zisselmanExploreGeneralizeZeroShot,
